@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>C-Bulla Game</title>
+    <meta type="description"
+          content="HTML5 catcher is a simple game to catch falling elements. You can use the keyboard, move the mouse or tilt your phone or tablet to move left and right">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://thewebrocks.com/demos/html5catcher/css/playingfield.css" type="text/css">
+    <link rel="stylesheet" href="http://thewebrocks.com/demos/html5catcher/css/textstyles.css" type="text/css">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Press+Start+2P" rel="stylesheet">
+
+
+</head>
+<body>
+<!--<header><h1></h1></header>-->
+<div id="container">
+
+    <section id="intro">
+        <h1><span></span></h1>
+        <p>Zbieraj punkty na pierwsze zakupy korzystając </br>z
+            aplikacji C-Bula</p>
+        <div class="score-test">
+            <ul>
+                <li>Ostatni wynik:
+                    <output></output>
+                </li>
+                <li>Najlepszy wynik:
+                    <output></output>
+                </li>
+            </ul>
+        </div>
+        <div class="play-test">
+            <ul>
+                <li>
+                    <h2 id="instructionbutton">Instrukcja gry</h2>
+                </li>
+                <li class="main-content">
+                    <img src="./img-game/onion.png" id="playbutton" alt="Start Game"/>
+                    <img src="./img-game/btn-zagraj.png" id="click" alt="click"/>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="instructions">
+        <!--<div class="instruction&#45;&#45;v-h" id="characters" data-countstart="2" data-newsprite="500">-->
+            <!--<h2 class="instruction-exit">X</h2>-->
+            <!--<h2 class="instruction-title">Instrukcja</h2>-->
+            <!--<ul>-->
+                <!--<li>Aby przesunąć <img class="img-basket"  src="./img-game/basket6.png"-->
+                                       <!--alt="basket" width="120" height="85" id="player"-->
+                                       <!--data-increase="5"/>-->
+                    <!--używaj strzałek ← → na klawiaturze <span id="orientation">-->
+                <!--</li>-->
+                <!--<div class="div">-->
+                    <!--<li>Zbieraj warzywa i zdobywaj punkty:</li>-->
+                    <!--<li><img class="vegetables onion sprite" src="./img-game/onion.png" alt="cebulka" data-collision="energy:20" data-type="good"/> +2 pkt</li>-->
+                    <!--<li><img class="vegetables carrot sprite" src="./img-game/carrot.png" alt="marchewka"/> +1 pkt <img-->
+                            <!--class="vegetables chilli" src="./img-game/chilli.png" alt="papryczka"/> +1 pkt <img-->
+                            <!--class="vegetables cabbage" src="./img-game/cabbage.png" alt="kapusta"/> +1 pkt-->
+                    <!--</li>-->
+                <!--</div>-->
+                <!--<div class="div">-->
+                    <!--<li>Unikaj:</li>-->
+                    <!--<li><img class="vegetables caterpillar" src="./img-game/caterpillar.png" alt="robak"/> -1-->
+                        <!--pkt-->
+                        <!--<img class="vegetables ladybug" src="./img-game/ladybug.jpg" alt="biedronka"/> -1 pkt-->
+                    <!--</li>-->
+                <!--</div>-->
+                <!--<div class="div">-->
+                    <!--<li>Wciśnij "Q" aby wyłączyć grę</li>-->
+                <!--</div>-->
+            <!--</ul>-->
+        <!--</div>-->
+
+
+        <ul id="characters" data-countstart="1" data-newsprite="500">
+            <li class="introdeck">
+                <p>
+                    <button class="endinstructions">X</button>
+                </p>
+                <h3>Aby przesunąć <img src="./img-game/basket6.png" width="120" height="85" id="player" data-increase="5"> używaj strzałek ← → na klawiaturze <span id="orientation"></span></h3>
+                <h3>Zbieraj warzywa i zdobywaj punkty:</h3>
+                <ul>
+                    <li><img src="./img-game/onion.png" class="sprite onion" alt="Onion" data-collision="energy:2" data-type="good"> +2 pkt</li>
+                </ul>
+                <ul>
+                    <li><img src="./img-game/carrot.png" class="sprite" alt="Carrot" data-collision="energy:1" data-type="good"> +1 pkt</li>
+                    <li><img src="./img-game/chilli.png" class="sprite" alt="Chilli" data-collision="energy:1" data-type="good"> +1 pkt</li>
+                    <li><img src="./img-game/cabbage.png" class="sprite" alt="Cabbage" data-collision="energy:1" data-type="good"> +1 pkt</li>
+                </ul>
+                <h3>Unikaj:</h3>
+                <ul>
+                    <li><img src="img/worm.png" class="sprite" alt="Worm" data-collision="energy:-1" data-type="bad"> -1 pkt</li>
+                    <li><img src="img/apple.png" class="sprite" alt="Apple" data-collision="energy:-1" data-type="bad"> -1 pkt</li>
+                </ul>
+                <h3>Wciśnij "Q" aby wyłączyć grę</h3>
+
+
+            </li>
+
+            <!--<li class="introdeck">-->
+            <!--<h2>Related, but not you</h2>-->
+            <!--<p>These are not yours either. Catching each will cost you 10 energy points.</p>-->
+            <!--<ul>-->
+            <!--<li><img src="http://thewebrocks.com/demos/html5catcher/img/video.png" class="sprite" alt="WebGL"-->
+            <!--data-collision="energy:-10" data-type="bad"></li>-->
+            <!--<li><img src="img/mediaqueries.png" class="sprite"-->
+            <!--alt="Media queries" data-collision="energy:-10"-->
+            <!--data-type="bad"></li>-->
+            <!--<li><img src="http://thewebrocks.com/demos/html5catcher/img/video.png" class="sprite" alt="File API"-->
+            <!--data-collision="energy:-10" data-type="bad"></li>-->
+            <!--<li><img src="img/svg.png" class="sprite" alt="SVG"-->
+            <!--data-collision="energy:-10" data-type="bad"></li>-->
+            <!--<li><img src="http://thewebrocks.com/demos/html5catcher/img/video.png" class="sprite"-->
+            <!--alt="Geolocation" data-collision="energy:-10"-->
+            <!--data-type="bad"></li>-->
+            <!--</ul>-->
+            <!--<p><button class="endinstructions">Back to menu</button></p>-->
+            <!--</li>-->
+
+        </ul>
+    </section>
+
+    <section id="playfield">
+        <div id="scoresinfo">
+            <div id="energy">Energy
+                <output>100</output>
+            </div>
+            <div id="score">Score
+                <output></output>
+            </div>
+        </div>
+        <canvas></canvas>
+    </section>
+
+    <section id="gameover">
+        <header><h1>Game over!</h1></header>
+        <p>Your score:
+            <output></output>
+        </p>
+        <p class="message" data-highscore="New highscore!"></p>
+        <p>
+            <button id="replay">Play again</button>
+        </p>
+    </section>
+
+    <ul id="androidbrowsersucks">
+        <li>
+            <button class="left"></button>
+        </li>
+        <li>
+            <button class="right"></button>
+        </li>
+    </ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
