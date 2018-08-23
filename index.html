@@ -13,8 +13,8 @@
 
 </head>
 <body>
-<div id="container">
-    <section id="intro">
+<div id="container" class="container">
+    <section id="intro" class="intro">
         <h1><span></span></h1>
         <p>Zbieraj punkty na pierwsze zakupy korzystając </br>z
             aplikacji C-Bula</p>
@@ -31,23 +31,23 @@
         <div class="play-test">
             <ul>
                 <li>
-                    <h2 id="instructionbutton">Instrukcja gry</h2>
+                    <h2 id="instructionbutton" class="instructionbutton">Instrukcja gry</h2>
                 </li>
                 <li class="main-content">
-                    <img src="./img-game/onion.png" id="playbutton" alt="Start Game"/>
-                    <img src="./img-game/btn-zagraj.png" id="click" alt="click"/>
+                    <img src="./img-game/onion.png" id="playbutton" class="playbutton"  alt="Start Game"/>
+                    <img src="./img-game/btn-zagraj.png" id="click" class="click" alt="click"/>
                 </li>
             </ul>
         </div>
     </section>
 
-    <section id="instructions">
-        <ul id="characters" data-countstart="1" data-newsprite="500">
+    <section id="instructions" class="instructions">
+        <ul id="characters" class="characters" data-countstart="1" data-newsprite="500">
             <li class="introdeck">
                 <p>
                     <button class="endinstructions">X</button>
                 </p>
-                <h3>Aby przesunąć <img src="./img-game/basket6.png" alt="basket" id="player" data-increase="5"> używaj strzałek ← → na klawiaturze <span id="orientation"></span></h3>
+                <h3>Aby przesunąć <img src="./img-game/basket6.png" alt="basket" id="player" class="player" data-increase="5"> używaj strzałek ← → na klawiaturze <span id="orientation"></span></h3>
                 <h3>Zbieraj warzywa i zdobywaj punkty:</h3>
                 <ul>
                     <li><img src="./img-game/onion.png"  class="sprite onion" alt="Onion" data-collision="energy:5" data-type="good"> +5 pkt</li>
@@ -65,19 +65,19 @@
             </li>
         </ul>
     </section>
-    <section id="playfield">
-        <div id="scoresinfo">
-            <div id="energy">Energia
+    <section id="playfield" class="playfield">
+        <div id="scoresinfo" class="scoresinfo">
+            <div id="energy" class="energy">Energia
                 <output>50</output>
             </div>
-            <div id="score">Wynik
+            <div id="score" class="score">Wynik
                 <output></output>
             </div>
         </div>
         <canvas></canvas>
     </section>
 
-    <section id="gameover">
+    <section id="gameover" class="gameover">
         <header><h1></h1></header>
         <p>Twój wynik:
             <output></output>

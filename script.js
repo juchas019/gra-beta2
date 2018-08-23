@@ -1,17 +1,17 @@
     (function(){
 
         /* DOM elements */
-        var container = $( '#container' ),
-            field = $( '#playfield' ),
-            player = $( '#player' ),
-            intro = $( '#intro' ),
-            instructions = $( '#instructions' ),
+        var container = $( '.container' ),
+            field = $( '.playfield' ),
+            player = $( '.player' ),
+            intro = $( '.intro' ),
+            instructions = $( '.instructions' ),
             leftbutton = $( '.left' ),
             rightbutton = $( '.right' ),
-            scoredisplay = $( '#score output' ),
-            energydisplay = $( '#energy output' ),
+            scoredisplay = $( '.score output' ),
+            energydisplay = $( '.energy output' ),
             canvas = $( 'canvas' ),
-            over = $( '#gameover' ),
+            over = $( '.gameover' ),
             overmsg = over.querySelector( '.message' ),
             characters = document.querySelectorAll( 'li.introdeck' ),
             c = canvas.getContext( '2d' ),
@@ -56,8 +56,8 @@
                 allsprites.push( current );
             }
             spritecount = allsprites.length;
-            initsprites = +$( '#characters' ).getAttribute( 'data-countstart' );
-            newsprite = +$( '#characters' ).getAttribute( 'data-newsprite' );
+            initsprites = +$( '.characters' ).getAttribute( 'data-countstart' );
+            newsprite = +$( '.characters' ).getAttribute( 'data-newsprite' );
 
             /* make container keyboard enabled */
             container.tabIndex = -1;
@@ -77,21 +77,11 @@
                 storedscores = JSON.parse( localStorage.html5catcher );
             } else {
                 storedscores = { last: 0, high: 0 };
-                localStorage.html5catcher = JSON.stringify( storedscores );
+                // localStorage.html5catcher = JSON.stringify( storedscores );
             }
 
             /* show the intro */
             showintro();
-
-            /*
-            As the android browser has no deviceorientation, I added links
-            that don't work quite well :( For better mobile browsers,
-            you can tilt the phone - Firefox for example.
-            */
-            if( 'ondeviceorientation' in window ) {
-                $( '#androidbrowsersucks' ).style.display = 'none';
-            }
-
         };
 
         /* Event Handlers */
@@ -351,7 +341,7 @@
             sprite.vy = rand( 1, 5 );
         };
 
-        /* yeah, yeah... */
+
         function $( str ) {
             return document.querySelector( str );
         };
