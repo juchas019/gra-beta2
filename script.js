@@ -245,7 +245,7 @@
             c.restore();
 
             /* when you still have energy, render next, else container over */
-            scores.energy = Math.min( scores.energy, 100 );
+            scores.energy = Math.min( scores.energy, 200 );
             if ( scores.energy > 0 ) {
                 requestAnimationFrame( loop );
             } else {
