@@ -198,12 +198,15 @@ canvas {
 }
 #instructionbutton:hover {
     cursor: pointer;
-    font-size: 47px;
+    /*font-size: 47px;*/
+    transform: scale(1.04);
+    transition: ease-in-out;
 }
 /*done*/
 #container {
     margin-top: 65px;
-    background: url("./img-game/background.jpg");
+    background: url("./img-game/background2.jpg");
+    background-size: cover;
     outline: 0;
 }
 /*done*/
