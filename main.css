@@ -21,7 +21,6 @@ li {
     list-style: none;
 }
 
-/*done*/
 #container {
     width: 100%;
     height: 100%;
@@ -47,6 +46,9 @@ li {
 }
 .score-test {
     margin: 40px 0;
+}
+#scoresinfo {
+    font-size: 24px;
 }
 #playfield, #gameover, #instructions, #intro {
     position: absolute;
@@ -125,16 +127,13 @@ h3 {
     text-align: center;
     padding-top: 40px;
 }
-
 #characters .current ul {
     margin: 5px 0;
 }
-
 #characters .current li {
     display: inline;
     padding-right: 10px;
 }
-
 #characters li.current {
     opacity: 1;
     left: 0;
@@ -144,32 +143,27 @@ h3 {
     -o-transition: opacity 1s;
     transition: opacity 1s;
 }
-
 .right {
     display: block;
     position: absolute;
     right: 0;
     bottom: 20px;
 }
-
 .left {
     display: block;
     position: absolute;
     left: 0;
     bottom: 20px;
 }
-
 canvas {
     width: 100%;
     height: 100%;
 }
-
 #scoresinfo {
     position: absolute;
     width: 100%;
     padding: 5px 0;
     background: transparent;
-    /*background: yellow;*/
 }
 
 #energy, #score {
@@ -187,10 +181,6 @@ canvas {
     font-size: 15px;
 }
 
-/*h1 {*/
-    /*font-size: 30px;*/
-/*}*/
-
 #instructionbutton {
     font-size: 44px;
     margin-bottom: 10px;
@@ -202,14 +192,12 @@ canvas {
     transform: scale(1.04);
     transition: ease-in-out;
 }
-/*done*/
 #container {
     margin-top: 65px;
     background: url("./img-game/background2.jpg");
     background-size: cover;
     outline: 0;
 }
-/*done*/
 #intro h1 span {
     /*text-indent: -2000px;*/
     background: url(img-game/cbulagame-logo.png) no-repeat center;
@@ -224,7 +212,6 @@ canvas {
     text-align: center;
     text-transform: uppercase;
 }
-/*done*/
 #intro ul, #intro p, #gameover p {
     width: 80%;
     margin: 10px auto;
@@ -254,13 +241,14 @@ canvas {
     float: right;
 }
 #gameover button {
+    flex-direction: row;
+    text-align: center;
     display: block;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background: linear-gradient(top, #e6f0a3 0%, #d2e638 50%, #c3d825 51%, #dbf043 100%);
     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.7);
     border-radius: 50%;
-
 }
 
 #intro button:hover, #intro button:focus, #gameover button:hover, #gameover button:focus {

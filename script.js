@@ -1,4 +1,3 @@
-
     (function(){
 
         /* DOM elements */
