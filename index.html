@@ -3,14 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>C-Bulla Game</title>
-    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <!--<link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>-->
-    <link rel="stylesheet" href="http://thewebrocks.com/demos/html5catcher/css/playingfield.css" type="text/css">
-    <link rel="stylesheet" href="http://thewebrocks.com/demos/html5catcher/css/textstyles.css" type="text/css">
     <link rel="stylesheet" href="main.css" type="text/css">
-    <!--<link href="https://fonts.googleapis.com/css?family=PT+Sans|Press+Start+2P" rel="stylesheet">-->
-
 </head>
 <body>
 <div id="container" class="container">
@@ -59,8 +53,8 @@
                 </ul>
                 <h3>Unikaj:</h3>
                 <ul>
-                    <li><img src="img/worm.png" class="sprite" alt="Worm" data-collision="energy:-20" data-type="bad"> -20 pkt</li>
-                    <li><img src="img/apple.png" class="sprite" alt="Apple" data-collision="energy:-10" data-type="bad"> -10 pkt</li>
+                    <li><img src="img/worm.png" class="sprite" alt="Worm" data-collision="energy:-50" data-type="bad"> -20 pkt</li>
+                    <li><img src="img/apple.png" class="sprite" alt="Apple" data-collision="energy:-50" data-type="bad"> -10 pkt</li>
                 </ul>
             </li>
         </ul>
@@ -68,7 +62,7 @@
     <section id="playfield" class="playfield">
         <div id="scoresinfo" class="scoresinfo">
             <div id="energy" class="energy">Energia
-                <output>50</output>
+                <output>1</output>
             </div>
             <div id="score" class="score">Wynik
                 <output></output>
@@ -84,7 +78,7 @@
         </p>
         <p class="message" data-highscore="New highscore!"></p>
         <p>
-            <button id="replay">Zagraj jeszcze raz</button>
+            <button id="replay" class="replay">Zagraj jeszcze raz</button>
         </p>
     </section>
 </div>

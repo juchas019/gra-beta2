@@ -63,7 +63,6 @@
             container.tabIndex = -1;
             container.focus();
 
-            /* Assign event handlers */
             container.addEventListener( 'keydown', onkeydown, false );
             container.addEventListener( 'keyup', onkeyup, false );
             container.addEventListener( 'touchstart', ontouchstart, false );
@@ -72,21 +71,16 @@
             container.addEventListener( 'mousemove', onmousemove, false );
             window.addEventListener( 'deviceorientation', tilt, false );
 
-            /* Get the container score, or preset it when there isn't any */
-            if( localStorage.html5catcher ) {
-                storedscores = JSON.parse( localStorage.html5catcher );
+            if( localStorage.cbula ) {
+                storedscores = JSON.parse( localStorage.cbula );
             } else {
                 storedscores = { last: 0, high: 0 };
-                // localStorage.html5catcher = JSON.stringify( storedscores );
             }
 
-            /* show the intro */
+
             showintro();
         };
 
-        /* Event Handlers */
-
-        /* Click handling */
         function onclick( ev ) {
             var t = ev.target;
             if ( gamestate === 'gameover' ) {
@@ -201,9 +195,6 @@
             loop();
         }
 
-        /*
-        The main container loop
-        */
         function loop() {
             c.clearRect( 0, 0, width, height );
 
@@ -249,7 +240,7 @@
             if (x < offset) { x = offset; }
         }
 
-        /* action when left is activated */
+        /* action when right is activated */
         function playerright() {
             x += playerincrease;
             if (x > width - offset) { x = width - offset; }
@@ -269,12 +260,8 @@
                 overmsg.innerHTML = overmsg.getAttribute('data-highscore');
                 storedscores.high = nowscore;
             }
-            localStorage.html5catcher = JSON.stringify(storedscores);
+            localStorage.cbula = JSON.stringify(storedscores);
         }
-
-        /*
-        Helper methods
-        */
 
         /* Particle system */
         function sprite() {
@@ -371,7 +358,6 @@
             })();
         }
 
-        /* off to the races */
         init();
     })();
 

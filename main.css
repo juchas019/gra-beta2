@@ -55,6 +55,18 @@ li {
     width: 100%;
     height: 100%;
 }
+#playfield, #gameover, #instructions, #intro {
+    position: absolute;
+    top: -900px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: top 1s;
+    -moz-transition: top 1s;
+    -ms-transition: top 1s;
+    -o-transition: top 1s;
+    transition: top 1s;
+}
 
 /*cebulka play*/
 .playbutton {
@@ -93,17 +105,17 @@ h3 {
     font-size: 22px;
     padding: 10px;
 }
-/*#playfield.current,*/
-/*#gameover.current,*/
-/*#instructions.current,*/
-/*#intro.current {*/
-/*top: 0;*/
-/*-webkit-transition: top 1s;*/
-/*-moz-transition: top 1s;*/
-/*-ms-transition: top 1s;*/
-/*-o-transition: top 1s;*/
-/*transition: top 1s;*/
-/*}*/
+#playfield.current,
+#gameover.current,
+#instructions.current,
+#intro.current {
+top: 0;
+-webkit-transition: top 1s;
+-moz-transition: top 1s;
+-ms-transition: top 1s;
+-o-transition: top 1s;
+transition: top 1s;
+}
 .characters li.introdeck {
     opacity: 0;
     left: -9000px;
@@ -197,6 +209,12 @@ canvas {
     background-size: cover;
     outline: 0;
 }
+.container p {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 24px;
+    padding-top: 40px;
+}
 #intro h1 span {
     /*text-indent: -2000px;*/
     background: url(img-game/cbulagame-logo.png) no-repeat center;
@@ -208,8 +226,10 @@ canvas {
 #gameover h1 {
     background: url(img/gameover03.gif) no-repeat center;
     padding-top: 100px;
-    text-align: center;
+    /*text-align: center;*/
     text-transform: uppercase;
+    margin-top: 40px;
+    background-size: auto;
 }
 .intro ul, .intro p, .gameover p {
     width: 80%;
@@ -217,11 +237,12 @@ canvas {
 }
 
 .intro p, .score-test li {
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
 }
 .intro p {
     margin: 20px auto;
+    text-align: right;
 }
 
 /*#intro h1 {*/
@@ -231,6 +252,7 @@ canvas {
 /*}*/
 
 #characters button {
+    background: #d9f90a;
     display: block;
     width: 50px;
     height: 50px;
@@ -240,11 +262,12 @@ canvas {
     float: right;
 }
 #gameover button {
+    background: #d9f90a;
     flex-direction: row;
     text-align: center;
     display: block;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background: linear-gradient(top, #e6f0a3 0%, #d2e638 50%, #c3d825 51%, #dbf043 100%);
     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.7);
     border-radius: 50%;
