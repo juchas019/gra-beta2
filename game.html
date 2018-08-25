@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>C-Bulla Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" href="game.css" type="text/css">
 </head>
 <body>
 <div id="container" class="container">
@@ -62,7 +62,7 @@
     <section id="playfield" class="playfield">
         <div id="scoresinfo" class="scoresinfo">
             <div id="energy" class="energy">Energia
-                <output>1</output>
+                <output>50</output>
             </div>
             <div id="score" class="score">Wynik
                 <output></output>
@@ -76,12 +76,12 @@
         <p>Twój wynik:
             <output></output>
         </p>
-        <p class="message" data-highscore="New highscore!"></p>
+        <p class="message" data-highscore="Nowy rekord!"></p>
         <p>
             <button id="replay" class="replay">Zagraj jeszcze raz</button>
         </p>
     </section>
 </div>
-<script src="script.js"></script>
+<script src="game-main.js"></script>
 </body>
 </html>

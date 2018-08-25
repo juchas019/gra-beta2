@@ -1,6 +1,6 @@
     (function(){
 
-        /* DOM elements */
+       // Elementy doom
         var container = $( '.container' ),
             field = $( '.playfield' ),
             player = $( '.player' ),
@@ -17,25 +17,19 @@
             c = canvas.getContext( '2d' ),
             startenergy = +energydisplay.innerHTML;
 
-        /* Game data */
         var scores = {
                 energy: startenergy
             },
             playerincrease = +player.getAttribute( 'data-increase' );
 
-        /* counters, etc */
         var score = 0, gamestate = null, x = 0, sprites = [], allsprites = [],
             spritecount = 0, now = 0, old = null, playerY = 0, offset = 0,
             width = 0, height = 0, levelincrease = 0, i=0 , storedscores = null,
             initsprites = 0, newsprite = 500, rightdown = false, leftdown = false;
-        /*
-        Setting up the container
-        */
 
         function init() {
             var current, sprdata, scoreinfo, i, j;
 
-            /* retrieve sprite data from HTML */
             sprdata = document.querySelectorAll( 'img.sprite' );
             i = sprdata.length;
             while (i--) {
@@ -59,7 +53,6 @@
             initsprites = +$( '.characters' ).getAttribute( 'data-countstart' );
             newsprite = +$( '.characters' ).getAttribute( 'data-newsprite' );
 
-            /* make container keyboard enabled */
             container.tabIndex = -1;
             container.focus();
 
@@ -77,7 +70,6 @@
                 storedscores = { last: 0, high: 0 };
             }
 
-
             showintro();
         };
 
@@ -92,8 +84,7 @@
             if ( t.id === 'playbutton' ) { startgame(); }
             ev.preventDefault();
         }
-
-        /* Keyboard handling */
+        // Poruszanie
         function onkeydown( ev ) {
             if ( ev.keyCode === 39 ) { rightdown = true; }
             else if ( ev.keyCode === 37 ) { leftdown = true; }
@@ -103,7 +94,6 @@
             else if ( ev.keyCode === 37 ) { leftdown = false; }
         }
 
-        /* Touch handling */
         function ontouchstart( ev ) {
             if ( gamestate === 'playing' ) { ev.preventDefault(); }
             if ( ev.target === rightbutton ) { rightdown = true; }
@@ -115,7 +105,6 @@
             else if ( ev.target === leftbutton ) { leftdown = false; }
         }
 
-        /* Orientation handling */
         function tilt (ev) {
             if(ev.gamma < 0) { x = x - 2; }
             if(ev.gamma > 0) { x = x + 2; }
@@ -123,7 +112,7 @@
             if ( x > width-offset ) { x = width-offset; }
         }
 
-        /* Mouse handling */
+      // Poruszanie mysza
         function onmousemove ( ev ) {
             var mx = ev.clientX - container.offsetLeft;
             if ( mx < offset ) { mx = offset; }
@@ -131,9 +120,6 @@
             x = mx;
         }
 
-        /*
-        Introduction
-        */
         function showintro() {
             setcurrent( intro );
             gamestate = 'intro';
@@ -142,9 +128,6 @@
             scoreelms[ 1 ].innerHTML = storedscores.high;
         }
 
-        /*
-        Instructions
-        */
         function showinstructions() {
             setcurrent( instructions );
             gamestate = 'instructions';
@@ -152,14 +135,12 @@
             characters[ now ].className = 'current';
         }
 
-        /* action when left is activated */
         function instructionsdone() {
             characters[ now ].className = 'introdeck';
             now = 0;
             showintro();
         }
 
-        /* action when right is activated */
         function instructionsnext() {
             if ( characters[ now + 1 ] ) {
                 now = now + 1;
@@ -170,9 +151,7 @@
             }
         }
 
-        /*
-        Start the container
-        */
+
         function startgame() {
             setcurrent( field );
             gamestate = 'playing';
@@ -198,25 +177,23 @@
         function loop() {
             c.clearRect( 0, 0, width, height );
 
-            /* render and update sprites */
+            /* tworzenie elementow */
             j = sprites.length;
             for ( i=0; i < j ; i++ ) {
                 sprites[ i ].render();
                 sprites[ i ].update();
             }
 
-            /* show scores */
+            /* pokaz wyniki */
             energydisplay.innerHTML = scores.energy;
             scoredisplay.innerHTML = ~~(score/10);
             score++;
 
-            /* with increasing score, add more sprites */
             if ( ~~(score/newsprite) > levelincrease ) {
                 sprites.push( addsprite() );
                 levelincrease++;
             }
 
-            /* position player*/
             if( rightdown ) { playerright(); }
             if( leftdown ) { playerleft(); }
 
@@ -225,7 +202,7 @@
             c.drawImage( player, 0, 0 );
             c.restore();
 
-            /* when you still have energy, render next, else container over */
+            // Jesli energia jest dodatnia, tworz kolejne elementy, lub game over
             scores.energy = Math.min( scores.energy, 200 );
             if ( scores.energy > 0 ) {
                 requestAnimationFrame( loop );
@@ -234,21 +211,17 @@
             }
         };
 
-        /* action when left is activated */
         function playerleft() {
             x -= playerincrease;
             if (x < offset) { x = offset; }
         }
 
-        /* action when right is activated */
         function playerright() {
             x += playerincrease;
             if (x > width - offset) { x = width - offset; }
         }
 
-        /*
-        Game over
-        */
+      // Game over
         function gameover() {
             document.body.className = 'gameover';
             setcurrent( over );
@@ -263,7 +236,6 @@
             localStorage.cbula = JSON.stringify(storedscores);
         }
 
-        /* Particle system */
         function sprite() {
             this.px = 0;
             this.py = 0;
@@ -333,19 +305,16 @@
             return document.querySelector( str );
         };
 
-        /* Get a random number between min and max */
         function rand( min, max ) {
             return ( (Math.random() * (max-min)) + min );
         };
 
-        /* Show the current part of the container and hide the old one */
         function setcurrent(elm) {
             if (old) { old.className = ''; }
             elm.className = 'current';
             old = elm;
         };
 
-        /* Detect and set requestAnimationFrame */
         if ( !window.requestAnimationFrame ) {
             window.requestAnimationFrame = (function() {
                 return window.webkitRequestAnimationFrame ||
