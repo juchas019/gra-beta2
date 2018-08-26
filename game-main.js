@@ -6,6 +6,7 @@
             player = $( '.player' ),
             intro = $( '.intro' ),
             instructions = $( '.instructions' ),
+            highscores = $( '.highscores' ),
             leftbutton = $( '.left' ),
             rightbutton = $( '.right' ),
             scoredisplay = $( '.score output' ),
@@ -81,6 +82,7 @@
             if ( t.className === 'next' ) { instructionsnext(); }
             if ( t.className === 'endinstructions' ) { instructionsdone(); }
             if ( t.id === 'instructionbutton' ) { showinstructions(); }
+            if ( t.id === 'highscoresbutton' ) { showhighscores(); }
             if ( t.id === 'playbutton' ) { startgame(); }
             ev.preventDefault();
         }
@@ -236,6 +238,16 @@
             localStorage.cbula = JSON.stringify(storedscores);
         }
 
+        /*
+Highscores
+*/
+        function showhighscores() {
+            setcurrent( highscores );
+            gamestate = 'highscores';
+            // characters[ now ].className = 'current';
+            getTasks();
+        }
+
         function sprite() {
             this.px = 0;
             this.py = 0;
@@ -314,18 +326,6 @@
             elm.className = 'current';
             old = elm;
         };
-
-        if ( !window.requestAnimationFrame ) {
-            window.requestAnimationFrame = (function() {
-                return window.webkitRequestAnimationFrame ||
-                    window.mozRequestAnimationFrame ||
-                    window.oRequestAnimationFrame ||
-                    window.msRequestAnimationFrame ||
-                    function( callback, element ) {
-                        window.setTimeout( callback, 1000 / 60 );
-                    };
-            })();
-        }
 
         init();
     })();

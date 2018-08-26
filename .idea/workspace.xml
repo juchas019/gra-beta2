@@ -3,9 +3,83 @@
   <component name="ChangeListManager">
     <list default="true" id="5b27aac9-b5a8-4845-a2fc-7993fc626313" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/game.html" />
-      <change beforePath="$PROJECT_DIR$/main.css" afterPath="$PROJECT_DIR$/game.css" />
-      <change beforePath="$PROJECT_DIR$/script.js" afterPath="$PROJECT_DIR$/game-main.js" />
+      <change beforePath="$PROJECT_DIR$/game-main.js" afterPath="$PROJECT_DIR$/game-main.js" />
+      <change beforePath="$PROJECT_DIR$/game.css" afterPath="$PROJECT_DIR$/game.css" />
+      <change beforePath="$PROJECT_DIR$/game.html" afterPath="$PROJECT_DIR$/game.html" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/basket (1).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/basket (2).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/basket (3).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/basket (4).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/basket.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/beet.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/bomb (1).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/bomb (2).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/bomb.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/broccoli.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/brochette.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/cabbage.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/carrot.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/cauliflower.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/chilli.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/cucumber (1).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/cucumber (2).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/cucumber (3).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/cucumber (4).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/cucumber.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/dynamite (1).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/dynamite (2).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/dynamite (3).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/dynamite (4).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/dynamite (5).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/dynamite.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/fruits.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/groceries.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/onion (1).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/onion (10).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/onion (11).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/onion (12).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/onion (13).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/onion (14).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/onion (15).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/onion (16).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/onion (2).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/onion (3).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/onion (4).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/onion (5).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/onion (6).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/onion (7).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/onion (8).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/onion (9).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/onion.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/onion1.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/onion2.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/onion3.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/onion4.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/online-store.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/pepper (1).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/pepper.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/picnic (1).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/picnic-basket (1).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/picnic-basket.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/picnic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/pineapple.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/poo.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/potato.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/radishes.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/shit.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/shopping-basket (1).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/shopping-basket (2).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/shopping-basket (3).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/shopping-basket.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/skewer.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/tomato (1).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/tomato (2).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/tomato (3).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/tomato (4).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/tomato (5).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/tomato.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/vegetables (1).svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon to game/vegetables.svg" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,38 +92,76 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="game.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-710">
-              <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="game.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-192">
-              <caret line="246" column="0" lean-forward="false" selection-start-line="246" selection-start-column="0" selection-end-line="246" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="game-main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/game-main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4890">
-              <caret line="22" column="69" lean-forward="true" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="game.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/game.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="640">
+                  <caret line="86" column="37" lean-forward="false" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/Downloads/gra-beta2 pawel/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="640">
+                  <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="37" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="highscores.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/highscores.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="game.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/game.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="273">
+                  <caret line="200" column="49" lean-forward="false" selection-start-line="200" selection-start-column="49" selection-end-line="200" selection-end-column="49" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="game-main.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/game-main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-990">
+                  <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+            <entry file="file://$USER_HOME$/Downloads/gra-beta2 pawel/script.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="144">
+                  <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="22" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -62,13 +174,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>orientation</find>
-      <find>onion</find>
-      <find>hove</find>
-      <find>hover</find>
-      <find>scorei</find>
-      <find>yell</find>
-      <find>energy</find>
       <find>gameover</find>
       <find>instructions</find>
       <find>characters</find>
@@ -76,7 +181,6 @@
       <find>score</find>
       <find>#</find>
       <find>androidbrowsersucks</find>
-      <find>left</find>
       <find>intro</find>
       <find>playf</find>
       <find>but</find>
@@ -88,10 +192,18 @@
       <find>playerright</find>
       <find>requestAnimationFrame</find>
       <find>gameov</find>
-      <find>localStorage</find>
       <find>current</find>
       <find>sprite</find>
       <find>bad</find>
+      <find>localStorage</find>
+      <find>window.mozRequest</find>
+      <find>data-collision</find>
+      <find>introdeck</find>
+      <find>left</find>
+      <find>sprdata</find>
+      <find>mx</find>
+      <find>highscoresbutton</find>
+      <find>highscores</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,9 +219,9 @@
         <option value="$PROJECT_DIR$/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/script.js" />
+        <option value="$PROJECT_DIR$/game.css" />
         <option value="$PROJECT_DIR$/game.html" />
         <option value="$PROJECT_DIR$/game-main.js" />
-        <option value="$PROJECT_DIR$/game.css" />
       </list>
     </option>
   </component>
@@ -140,7 +252,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,7 +264,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,26 +322,29 @@
       <workItem from="1535137896673" duration="274000" />
       <workItem from="1535138439228" duration="4179000" />
       <workItem from="1535191490074" duration="1065000" />
+      <workItem from="1535193395878" duration="44000" />
+      <workItem from="1535273364576" duration="1822000" />
+      <workItem from="1535275667467" duration="1412000" />
+      <workItem from="1535277556277" duration="1077000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61871000" />
+    <option name="totallyTimeSpent" value="66226000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="21" width="1857" height="987" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="-4" width="1855" height="979" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08679039" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08679039" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28117648" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28051645" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -238,6 +353,25 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282353" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28051645" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08679039" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282353" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -250,6 +384,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/game.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4428">
+          <caret line="246" column="0" lean-forward="false" selection-start-line="246" selection-start-column="0" selection-end-line="246" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game-main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="69" lean-forward="true" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/game.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1404">
@@ -541,26 +699,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/gra-beta2 pawel/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="202" column="37" lean-forward="false" selection-start-line="202" selection-start-column="21" selection-end-line="202" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/highscores.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/gra-beta2 pawel/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/game.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-710">
-          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="640">
+          <caret line="86" column="37" lean-forward="false" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/game.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-192">
-          <caret line="246" column="0" lean-forward="false" selection-start-line="246" selection-start-column="0" selection-end-line="246" selection-end-column="0" />
+        <state relative-caret-position="273">
+          <caret line="200" column="49" lean-forward="false" selection-start-line="200" selection-start-column="49" selection-end-line="200" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/gra-beta2 pawel/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/game-main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4890">
-          <caret line="22" column="69" lean-forward="true" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
+        <state relative-caret-position="-990">
+          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
           <folding />
         </state>
       </provider>

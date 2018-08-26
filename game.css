@@ -144,6 +144,7 @@ transition: top 1s;
 .characters .current li {
     display: inline;
     padding-right: 10px;
+    font-size: 18px;
 }
 .characters li.current {
     opacity: 1;
@@ -192,12 +193,12 @@ canvas {
     font-size: 15px;
 }
 
-.instructionbutton {
+.instructionbutton, .highscoresbutton {
     font-size: 44px;
     margin-bottom: 10px;
     text-align: center;
 }
-.instructionbutton:hover {
+.instructionbutton:hover, .highscoresbutton:hover {
     cursor: pointer;
     /*font-size: 47px;*/
     transform: scale(1.04);
